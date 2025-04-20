@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.exemple.utils","l":"CalculadoraKilometres"},{"p":"com.exemple.model","l":"Cotxe"},{"p":"com.exemple.model","l":"Main"},{"p":"com.exemple.model","l":"Moto"},{"p":"com.exemple.model","l":"Motor"},{"p":"com.exemple.model","l":"Vehicle"}];updateSearchResults();
