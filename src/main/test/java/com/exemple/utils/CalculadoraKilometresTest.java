@@ -40,8 +40,11 @@ public class CalculadoraKilometresTest {
     /**
      * Prova el càlcul de la mitjana de quilòmetres per any.
      */
+    /**
+     * Prova el càlcul de la mitjana de quilòmetres per any amb valors extrems.
+     */
     @Test
-    @DisplayName("Test calculadora mitjana km/any")
+    @DisplayName("Test càlcul mitjana quilòmetres per any")
     public void testCalcularMitjanaKmAny() {
         // Comprovem que la mitjana del vehicle nou és 2500 km/any
         assertEquals(2500.0, CalculadoraKilometres.calcularMitjanaKmAny(vehicleNou), 0.1);
