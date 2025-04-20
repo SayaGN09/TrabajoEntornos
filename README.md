@@ -2,17 +2,17 @@ Projecte Exemple: Vehicles
 
 Aquest projecte demostra:
 
-Implementació de classes Java amb herència, composició i altres relacions
+- Implementació de classes Java amb herència, composició i altres relacions
 
-Creació i execució de tests unitaris (JUnit)
+- Creació i execució de tests unitaris (JUnit)
 
-Documentació amb JavaDoc
+- Documentació amb JavaDoc
 
-Diagrames de classes UML
+- Diagrames de classes UML
 
 1. Funcions de Test
 
-Què són els tests unitaris?
+**Què són els tests unitaris?**
 
 Els tests unitaris són proves que validen el correcte funcionament de parts específiques del codi (normalment mètodes o funcions) de manera aïllada. Permeten verificar que cada part del codi funcioni segons el disseny i detectar errors en una fase primerenca.
 
@@ -55,22 +55,22 @@ Cada mètode que volem testejar ha de tenir un mètode de test corresponent, amb
 
 Utilitzar assertions per verificar els resultats esperats:
 
-assertEquals(expected, actual): Verifica si dos valors són iguals
+- assertEquals(expected, actual): Verifica si dos valors són iguals
 
-assertTrue(condition): Verifica si una condició és certa
+- assertTrue(condition): Verifica si una condició és certa
 
-assertFalse(condition): Verifica si una condició és falsa
+- assertFalse(condition): Verifica si una condició és falsa
 
-assertThrows(expectedType, executable): Verifica si es llança una excepció del tipus esperat
+- assertThrows(expectedType, executable): Verifica si es llança una excepció del tipus esperat
 
 
 Anotacions útils:
 
-@BeforeEach: S'executa abans de cada test
+<u>@BeforeEach:</u> S'executa abans de cada test
 
-@AfterEach: S'executa després de cada test
+<u>@AfterEach:</u> S'executa després de cada test
 
-@DisplayName: Proporciona un nom descriptiu al test
+<u>@DisplayName:</u> Proporciona un nom descriptiu al test
 
 
 
