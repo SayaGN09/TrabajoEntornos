@@ -1,49 +1,38 @@
-Projecte Exemple: Vehicles
+# 🚗 Projecte Exemple: Vehicles
 
 Aquest projecte demostra:
 
-- Implementació de classes Java amb herència, composició i altres relacions
+- ✅ Implementació de classes Java amb **herència**, **composició** i altres relacions.
+- ✅ Creació i execució de **tests unitaris** amb **JUnit 5**.
+- ✅ Documentació amb **JavaDoc**.
+- ✅ Creació de **diagrames UML de classes**.
 
-- Creació i execució de tests unitaris (JUnit)
+---
 
-- Documentació amb JavaDoc
+## 1. 🧪 Funcions de Test
 
-- Diagrames de classes UML
+### Què són els tests unitaris?
 
-1. Funcions de Test
+Els tests unitaris són proves que validen el correcte funcionament de parts específiques del codi (normalment mètodes o funcions) de manera aïllada. Permeten detectar errors en fases primerenques.
 
-**Què són els tests unitaris?**
+---
 
-Els tests unitaris són proves que validen el correcte funcionament de parts específiques del codi (normalment mètodes o funcions) de manera aïllada. Permeten verificar que cada part del codi funcioni segons el disseny i detectar errors en una fase primerenca.
+### ✅ Com implementar tests unitaris amb JUnit
 
-Com implementar tests unitaris amb JUnit
+**1. Afegir les dependències al `pom.xml`:**
 
-Per implementar tests unitaris en Java, utilitzem el framework JUnit 5. Aquí expliquem els passos:
-
-Afegir la dependència al fitxer pom.xml:
-
-xml<dependency>
-
-<groupId>org.junit.jupiter</groupId>
-
-<artifactId>junit-jupiter-api</artifactId>
-
-<version>5.8.2</version>
-
-<scope>test</scope>
-
-</dependency>
-
+```xml
 <dependency>
-
-<groupId>org.junit.jupiter</groupId>
-
-<artifactId>junit-jupiter-engine</artifactId>
-
-<version>5.8.2</version>
-
-<scope>test</scope>
-
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
 </dependency>
 
 Crear una classe de test dins del directori src/test/java:
