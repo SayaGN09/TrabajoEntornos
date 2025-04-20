@@ -174,7 +174,7 @@ Dependència: Una classe utilitza una altra temporalment (línia discontínua am
 
 
 Diagrama de classes del nostre projecte
-Mostrar imagen
+![alt text](docs/img/diagClases.png)
 Descripció de les relacions en el nostre projecte
 
 Herència:
