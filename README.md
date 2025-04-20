@@ -67,18 +67,11 @@ public void testCalcularMitjanaKmAny() {
 Com executar els tests
 Els tests es poden executar de diverses maneres:
 
-Des de l'IDE (IntelliJ IDEA, Eclipse, etc.):
-
-Fer clic dret sobre la classe de test o mètode de test i seleccionar "Run"
-Utilitzar les dreceres de teclat (per exemple, Ctrl+Shift+F10 en IntelliJ)
-
-
 Amb Maven:
 
 Obrir un terminal a la carpeta arrel del projecte
 Executar la comanda: mvn test
-Per executar un test específic: mvn test -Dtest=NomDeLaClasseTest
-
+Per executar un test específic: mvn exec:java
 
 Interpretació dels resultats:
 
